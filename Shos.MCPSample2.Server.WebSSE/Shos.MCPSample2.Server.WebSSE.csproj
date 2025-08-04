@@ -8,7 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.18" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0-preview.6.25358.103" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" Version="0.3.0-preview.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shos.MCPSample2.Shared\Shos.MCPSample2.Shared.csproj" />
   </ItemGroup>
 
 </Project>

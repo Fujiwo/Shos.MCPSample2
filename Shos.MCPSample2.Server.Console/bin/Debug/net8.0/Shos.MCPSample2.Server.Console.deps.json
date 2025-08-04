@@ -9,7 +9,8 @@
       "Shos.MCPSample2.Server.Console/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "10.0.0-preview.6.25358.103",
-          "ModelContextProtocol": "0.3.0-preview.3"
+          "ModelContextProtocol": "0.3.0-preview.3",
+          "Shos.MCPSample2.Shared": "1.0.0"
         },
         "runtime": {
           "Shos.MCPSample2.Server.Console.dll": {}
@@ -486,6 +487,14 @@
             "fileVersion": "10.0.25.35903"
           }
         }
+      },
+      "Shos.MCPSample2.Shared/1.0.0": {
+        "dependencies": {
+          "ModelContextProtocol": "0.3.0-preview.3"
+        },
+        "runtime": {
+          "Shos.MCPSample2.Shared.dll": {}
+        }
       }
     }
   },
@@ -746,6 +755,11 @@
       "sha512": "sha512-xH055e4LiRuNIbtKUrTd5rBligJQgdGlnEZF9/H9nqThctNtfuucCkHza/zP/diQ1mdE+ppnY7mYFbj0aCTJ/w==",
       "path": "system.text.json/10.0.0-preview.6.25358.103",
       "hashPath": "system.text.json.10.0.0-preview.6.25358.103.nupkg.sha512"
+    },
+    "Shos.MCPSample2.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

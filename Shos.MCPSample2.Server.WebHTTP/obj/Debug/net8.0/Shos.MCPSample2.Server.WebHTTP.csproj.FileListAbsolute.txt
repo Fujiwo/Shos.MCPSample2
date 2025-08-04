@@ -32,3 +32,15 @@
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/obj/Debug/net8.0/Shos.MCPSample2.Server.WebHTTP.pdb
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/obj/Debug/net8.0/Shos.MCPSample2.Server.WebHTTP.genruntimeconfig.cache
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/obj/Debug/net8.0/ref/Shos.MCPSample2.Server.WebHTTP.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.Extensions.AI.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/ModelContextProtocol.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/ModelContextProtocol.AspNetCore.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/ModelContextProtocol.Core.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/System.Net.ServerSentEvents.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Shos.MCPSample2.Shared.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Shos.MCPSample2.Shared.pdb

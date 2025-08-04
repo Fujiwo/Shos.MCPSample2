@@ -1,9 +1,26 @@
+using Shos.MCPSample2.Shared;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add MCP server with HTTP transport for SSE
+builder.Services.AddMcpServer()
+    .WithHttpTransport() // HTTP transport with Server-Sent Events support
+    .WithTools<SampleMcpTools>();
+
+// Add CORS for MCP client connections
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -15,7 +32,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();
 
+// Map the MCP server endpoint with SSE transport
+app.MapMcp("/api/mcp");
+
+// Sample endpoint for testing
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"

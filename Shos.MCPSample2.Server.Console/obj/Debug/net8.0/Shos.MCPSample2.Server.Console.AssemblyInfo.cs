@@ -12,9 +12,10 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shos.MCPSample2.Server.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("An MCP server using the MCP C# SDK.")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("An MCP server console application with STDIO transport demonstrating various samp" +
+    "le tools.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c0f26a24d37fad92294fab8ac9a3d5781306981")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec49f63b1a62f3cc36cffeaba9b82ed98466e63b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shos.MCPSample2.Server.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shos.MCPSample2.Server.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

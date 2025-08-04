@@ -13,10 +13,10 @@
 
     <!-- Set recommended package metadata -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageId>SampleMcpServer</PackageId>
+    <PackageId>Shos.MCPSample2.Server.Console</PackageId>
     <PackageVersion>0.1.0-beta</PackageVersion>
     <PackageTags>AI; MCP; server; stdio</PackageTags>
-    <Description>An MCP server using the MCP C# SDK.</Description>
+    <Description>An MCP server console application with STDIO transport demonstrating various sample tools.</Description>
   </PropertyGroup>
 
   <!-- Include additional files for browsing the MCP server. -->
@@ -28,6 +28,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0-preview.6.25358.103" />
     <PackageReference Include="ModelContextProtocol" Version="0.3.0-preview.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shos.MCPSample2.Shared\Shos.MCPSample2.Shared.csproj" />
   </ItemGroup>
 
 </Project>

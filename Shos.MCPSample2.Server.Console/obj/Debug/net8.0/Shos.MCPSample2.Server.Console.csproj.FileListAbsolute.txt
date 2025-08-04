@@ -54,3 +54,5 @@
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/obj/Debug/net8.0/Shos.MCPSample2.Server.Console.pdb
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/obj/Debug/net8.0/Shos.MCPSample2.Server.Console.genruntimeconfig.cache
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/obj/Debug/net8.0/ref/Shos.MCPSample2.Server.Console.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Shos.MCPSample2.Shared.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Shos.MCPSample2.Shared.pdb
