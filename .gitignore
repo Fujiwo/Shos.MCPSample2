@@ -336,3 +336,5 @@ Temporary Items
 .directory
 .Trash-*
 .nfs*
+/Shos.MCPSample2.Server.WebHTTP/Shos.MCPSample2.Server.WebHTTP.csproj.user
+/Shos.MCPSample2.Server.WebSSE/Shos.MCPSample2.Server.WebSSE.csproj.user
