@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qStL26w7m8LGe/p81EGsVbNOPDVk6CX7IpqL56L3rUA=",
+  "Source": "Shos.MCPSample2.Server.WebHTTP",
+  "BasePath": "_content/Shos.MCPSample2.Server.WebHTTP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

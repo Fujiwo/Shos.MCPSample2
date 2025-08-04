@@ -1,0 +1,6 @@
+@Shos.MCPSample2.Server.WebHTTP_HostAddress = http://localhost:5178
+
+GET {{Shos.MCPSample2.Server.WebHTTP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
