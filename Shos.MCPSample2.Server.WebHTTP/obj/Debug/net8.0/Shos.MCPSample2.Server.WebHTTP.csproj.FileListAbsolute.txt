@@ -44,3 +44,11 @@
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/System.Net.ServerSentEvents.dll
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Shos.MCPSample2.Shared.dll
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Shos.MCPSample2.Shared.pdb
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.WebHTTP/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll

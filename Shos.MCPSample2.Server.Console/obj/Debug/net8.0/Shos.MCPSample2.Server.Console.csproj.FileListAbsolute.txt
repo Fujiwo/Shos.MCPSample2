@@ -56,3 +56,8 @@
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/obj/Debug/net8.0/ref/Shos.MCPSample2.Server.Console.dll
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Shos.MCPSample2.Shared.dll
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Shos.MCPSample2.Shared.pdb
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
