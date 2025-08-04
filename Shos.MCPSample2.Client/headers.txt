@@ -1,0 +1,6 @@
+HTTP/1.1 302 Found
+Content-Length: 0
+Date: Mon, 04 Aug 2025 05:35:20 GMT
+Server: Kestrel
+Location: http://localhost:8080/callback?code=IeFTS2qLrXKyuuw1f1SHnLAx1QCglC5sD9QnVbG5xso&state=test123
+

@@ -54,3 +54,10 @@
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.csproj.AssemblyReference.cache
 /home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.csproj.CopyComplete
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Shared.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Shared.pdb

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shos.MCPSample2.Server.WebHTTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec49f63b1a62f3cc36cffeaba9b82ed98466e63b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c982792f3fcd819d4bdae8e26a8fb83291d398")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shos.MCPSample2.Server.WebHTTP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shos.MCPSample2.Server.WebHTTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

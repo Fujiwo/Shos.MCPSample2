@@ -21,16 +21,20 @@ This solution showcases three different MCP server implementations and a client 
 │ - Multi-server  │    │ - CalculateFactorial │
 │ - Transport     │    │ - IsPrime            │
 │   demos         │    │ - ReverseString      │
-└─────────────────┘    │ - GetCurrentTime     │
-         │              │ - FormatDate         │
-         │              │ - CalculateDistance  │
-         ▼              │ - GenerateFibonacci   │
-┌─────────────────┐    └──────────────────────┘
-│ MCP Servers     │              ▲
+│ - OAuth 2.1     │    │ - GetCurrentTime     │
+│   PKCE Client   │    │ - FormatDate         │
+└─────────────────┘    │ - CalculateDistance  │
+         │              │ - GenerateFibonacci   │
+         │              └──────────────────────┘
+         ▼                        ▲
+┌─────────────────┐              │
+│ OAuth 2.1       │              │
+│ Protected       │              │
+│ MCP Servers     │              │
 │                 │              │
-│ ├ Console STDIO │──────────────┤
-│ ├ Web SSE       │──────────────┤  
-│ └ Web HTTP      │──────────────┘
+│ ├ Console STDIO │──────────────┤ (No OAuth)
+│ ├ Web SSE       │──────────────┤ (OAuth 2.1)
+│ └ Web HTTP      │──────────────┘ (OAuth 2.1)
 └─────────────────┘
 ```
 
@@ -44,25 +48,29 @@ This solution showcases three different MCP server implementations and a client 
 - Best for: Local integrations, CLI tools, GitHub Copilot
 
 ### 2. Shos.MCPSample2.Server.WebSSE  
-**Web SSE MCP Server**
+**Web SSE MCP Server with OAuth 2.1**
 - Transport: HTTP with Server-Sent Events
 - Port: 5001 (HTTP), 7001 (HTTPS)
-- Endpoint: `/api/mcp`
+- Endpoint: `/api/mcp` (OAuth 2.1 Protected)
+- OAuth: Authorization Code Flow with PKCE
 - Best for: Real-time web applications, persistent connections
 
 ### 3. Shos.MCPSample2.Server.WebHTTP
-**Web HTTP MCP Server**  
+**Web HTTP MCP Server with OAuth 2.1**  
 - Transport: Streamable HTTP
 - Port: 5002 (HTTP), 7002 (HTTPS)
-- Endpoint: `/api/mcp`
+- Endpoint: `/api/mcp` (OAuth 2.1 Protected)
+- OAuth: Authorization Code Flow with PKCE
 - Best for: REST-like integrations, stateless connections
 
 ### 4. Shos.MCPSample2.Client
-**MCP Client Application**
+**MCP Client Application with OAuth 2.1 Support**
 - Interactive console application
 - Connects to all three server types
 - Demonstrates different transport methods
 - Shows server capabilities and health checks
+- **OAuth 2.1 PKCE client implementation**
+- Tests OAuth authorization flows
 
 ### 5. Shos.MCPSample2.Shared
 **Shared Library**
@@ -158,22 +166,30 @@ open http://localhost:5002/swagger  # HTTP server
 
 ## MCP Client Usage
 
-The client application provides an interactive menu:
+The client application provides an interactive menu with OAuth 2.1 support:
 
 ```
-=== MCP Client Sample ===
+=== MCP Client Sample with OAuth 2.1 ===
 Select a server to connect to:
-1. Console STDIO MCP Server
-2. Web SSE MCP Server (HTTP)  
-3. Web HTTP MCP Server (HTTP)
-4. Exit
+1. Console STDIO MCP Server (No OAuth - Local only)
+2. Web SSE MCP Server (HTTP) - OAuth 2.1 Protected
+3. Web HTTP MCP Server (HTTP) - OAuth 2.1 Protected
+4. Test OAuth 2.1 Flow
+5. Exit
 ```
 
 Each option demonstrates:
 - How to connect to that transport type
 - Available server capabilities  
 - Health check results
+- OAuth 2.1 protection status
 - Setup instructions if server is not running
+
+**Option 4** provides a complete OAuth 2.1 PKCE flow demonstration, showing:
+- OAuth discovery
+- PKCE challenge generation
+- Authorization code exchange
+- Access token usage with protected endpoints
 
 ## Development Notes
 
@@ -204,7 +220,73 @@ Each option demonstrates:
 
 ## OAuth 2.1 Integration
 
-> **Note**: OAuth 2.1 integration is planned for future implementation. The current version focuses on demonstrating core MCP functionality across different transport types.
+✅ **OAuth 2.1 implementation is now complete!** 
+
+The MCP web servers (WebSSE and WebHTTP) are now protected with OAuth 2.1 authorization using PKCE (Proof Key for Code Exchange) for enhanced security.
+
+### OAuth 2.1 Features
+
+- **PKCE Required**: All authorization flows use PKCE for security
+- **JWT Bearer Tokens**: Access tokens are JWT format with secure signing
+- **Discovery Endpoint**: Standard OAuth discovery at `/.well-known/oauth-authorization-server`
+- **Authorization Code Flow**: Standard OAuth 2.1 authorization code flow
+- **MCP Protection**: MCP endpoints require valid Bearer tokens
+
+### OAuth 2.1 Endpoints
+
+Both web servers expose the following OAuth endpoints:
+
+| Endpoint | Purpose |
+|----------|---------|
+| `/.well-known/oauth-authorization-server` | OAuth discovery information |
+| `/oauth/authorize` | Authorization endpoint (PKCE required) |
+| `/oauth/token` | Token exchange endpoint |
+| `/api/mcp` | Protected MCP endpoint (requires Bearer token) |
+
+### Testing OAuth 2.1
+
+1. **Start a web server:**
+   ```bash
+   cd Shos.MCPSample2.Server.WebSSE
+   dotnet run  # Starts on http://localhost:5001
+   ```
+
+2. **Run the client with OAuth testing:**
+   ```bash
+   cd Shos.MCPSample2.Client
+   dotnet run
+   # Select option 4: "Test OAuth 2.1 Flow"
+   ```
+
+3. **Manual OAuth Flow Testing:**
+   ```bash
+   # Discovery
+   curl http://localhost:5001/.well-known/oauth-authorization-server
+   
+   # Test protected endpoint (should return 401)
+   curl -I http://localhost:5001/api/mcp
+   
+   # Generate PKCE challenge and test full flow
+   # (See client implementation for complete example)
+   ```
+
+### OAuth 2.1 Configuration
+
+OAuth settings are configured in `appsettings.json`:
+
+```json
+{
+  "OAuth": {
+    "Issuer": "https://localhost:7001",
+    "Audience": "mcp-api",
+    "AccessTokenExpirationMinutes": 60,
+    "DefaultClientId": "mcp-sample-client",
+    "DefaultRedirectUri": "http://localhost:8080/callback"
+  }
+}
+```
+
+**Security Note**: The JWT signing key is currently hardcoded for demo purposes. In production, use secure key management (Azure Key Vault, etc.).
 
 ## Contributing
 
