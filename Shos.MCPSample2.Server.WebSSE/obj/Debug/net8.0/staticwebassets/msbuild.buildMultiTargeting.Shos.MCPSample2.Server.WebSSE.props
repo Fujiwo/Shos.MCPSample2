@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Shos.MCPSample2.Server.WebSSE.props" />
+</Project>

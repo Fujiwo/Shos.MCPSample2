@@ -1,0 +1,15 @@
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Client
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Client.deps.json
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Client.runtimeconfig.json
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Client.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/bin/Debug/net8.0/Shos.MCPSample2.Client.pdb
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.AssemblyInfoInputs.cache
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.AssemblyInfo.cs
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.csproj.CoreCompileInputs.cache
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.sourcelink.json
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/refint/Shos.MCPSample2.Client.dll
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.pdb
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/Shos.MCPSample2.Client.genruntimeconfig.cache
+/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Client/obj/Debug/net8.0/ref/Shos.MCPSample2.Client.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XT3d7YRydf++IEWsOzK5Lgg6fayOdNeTB614x4/UYW8=",
+  "Source": "Shos.MCPSample2.Server.WebSSE",
+  "BasePath": "_content/Shos.MCPSample2.Server.WebSSE",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

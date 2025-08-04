@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/Shos.MCPSample2.Server.Console.csproj": {}
+  },
+  "projects": {
+    "/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/Shos.MCPSample2.Server.Console.csproj": {
+      "version": "0.1.0-beta",
+      "restore": {
+        "projectUniqueName": "/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/Shos.MCPSample2.Server.Console.csproj",
+        "projectName": "SampleMcpServer",
+        "projectPath": "/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/Shos.MCPSample2.Server.Console.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Shos.MCPSample2/Shos.MCPSample2/Shos.MCPSample2.Server.Console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.0-preview.6.25358.103, )"
+            },
+            "ModelContextProtocol": {
+              "target": "Package",
+              "version": "[0.3.0-preview.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
